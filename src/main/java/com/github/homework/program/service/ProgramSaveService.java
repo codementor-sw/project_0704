@@ -26,6 +26,8 @@ public class ProgramSaveService {
             .introductionDetail(programSaveDto.getIntroductionDetail())
             .region(programSaveDto.getRegion())
             .theme(theme).build();
+
+
         this.programRepository.save(program);
     }
 
